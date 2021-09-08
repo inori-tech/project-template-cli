@@ -10,8 +10,10 @@
     "trailingComma": "all",
     "useTabs": false,
     "tabWidth": 2,
+    "printWidth": 120,
     "semi": true,
-    "singleQuote": true
+    "singleQuote": false,
+    "endOfLine": "lf"
   },
   "contributors": [
     "njzydark <njzydark@gmail.com> (https://github.com/njzydark)",
