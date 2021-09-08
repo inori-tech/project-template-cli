@@ -1,11 +1,22 @@
 {
   "name": "project-template-cli",
   "version": "1.2.0",
+  "private": true,
   "description": "A simple cli to create project from template",
   "bin": {
     "template": "bin/template.js"
   },
-  "author": "njzydark",
+  "prettier": {
+    "trailingComma": "all",
+    "useTabs": false,
+    "tabWidth": 2,
+    "semi": true,
+    "singleQuote": true
+  },
+  "contributors": [
+    "njzydark <njzydark@gmail.com> (https://github.com/njzydark)",
+    "inori-lover (https://github.com/Inori-Lover)"
+  ],
   "license": "MIT",
   "dependencies": {
     "axios": "^0.21.0",
@@ -13,6 +24,7 @@
     "commander": "^6.2.1",
     "figlet": "^1.5.0",
     "fs-extra": "^9.0.1",
+    "got": "^11.8.2",
     "inquirer": "^7.3.3",
     "open": "^7.3.0",
     "ora": "^5.1.0",
@@ -23,10 +35,12 @@
   "directories": {
     "lib": "lib"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "prettier": "^2.3.2"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/njzydark/project-template-cli.git"
+    "url": "git+https://github.com/inori-tech/project-template-cli"
   },
   "keywords": [
     "cli",
@@ -34,7 +48,7 @@
     "node"
   ],
   "bugs": {
-    "url": "https://github.com/njzydark/project-template-cli/issues"
+    "url": "https://github.com/inori-tech/project-template-cli/issues"
   },
-  "homepage": "https://github.com/njzydark/project-template-cli#readme"
+  "homepage": "https://github.com/inori-tech/project-template-cli#readme"
 }
